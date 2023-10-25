@@ -3,6 +3,7 @@
 int getRandomNumber(int min, int max) {
     //Gets a range inbetween and including min and max.
     return rand() % (max - min + 1) + min; 
+    printf("deg");
 }
 
 ROUNDTYPE getRoundType() {
